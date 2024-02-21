@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/ecoeye-turning.gif" width="600" />
+  <img src="images/ecoeye-turning.gif" width="300" />
 </p>
 
 # EcoEye
