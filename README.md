@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/ecoeye-turning.gif" width="600" />
+</p>
+
 # EcoEye
 EcoEye is a camera with onboard machine vision capabilities encased in a portable and waterproof housing designed for remote deployments. Based on the openMV H7 Plus Cam, it is easy to set up and flexible to numerous applications. The internal power management and control system enables long-term operation and allows the integration of solar panels, countless sensors, and other external devices. The camera is thoroughly field tested, and the results are published in a scientific article.
 
@@ -40,7 +44,7 @@ Using the openMV IDE, you can program the camera in Python using available examp
 - 6.0mm lens
 - 12.0mm lens
 
-  <p align="center">
+<p align="center">
   <img src="images/ecoeye-parts.jpg" width="600" />
 </p>
 
