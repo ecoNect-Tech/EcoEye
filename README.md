@@ -29,8 +29,8 @@ Using the openMV IDE, you can program the camera in Python using available examp
 
 ## Hardware Overview
 <p align="center">
-  <img src="images/hardware-overiew_open.jpg" width="600" />
-  <img src="images/hardware-overiew_front.jpg" width="600" />
+  <img src="images/hardware-overview_open.jpg" width="600" />
+  <img src="images/hardware-overview_front.jpg" width="600" />
 </p>
 
 ## Part List
