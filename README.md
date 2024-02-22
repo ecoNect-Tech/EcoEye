@@ -106,6 +106,12 @@ With the ecoEye camera set up to monitor sections of a lake or river, waterbirds
 
 ## Cocoa flower visitors detection for Pollination ecology
 
+<p align="center">
+  <img src="images/cocoa-setup.jpg" height=300 />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images/cocoa-gif.gif" height=300 />
+</p>
+
 
 
 
