@@ -85,11 +85,12 @@ With the ecoEye camera set up to monitor sections of a lake or river, waterbirds
 </p>
 
 ## Flying nocturnal insects classification for Pest monitoring
+The ecoEye camera is uesd to collect insect data in rice fields with the blob detection method. Subsequently, this data can be used for pest control. First, raw image data is collected, and the captured insects are analyzed. After creating a classification model with the collected data, the camera can be set up near rice fields to automatically identify and analyze the visiting insects. Currently, the accuracy of the built model is being verified.
 
 <p align="center">
   <img src="images/rice-setup.png" width=800 />
   <br/><br/>
-  <img src="images/rice-image.png" height=250 />
+  <img src="images/rice-det1.png" height=250 />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="images/rice-gif2.gif" height=250 />
   <br/><br/>
@@ -105,6 +106,7 @@ With the ecoEye camera set up to monitor sections of a lake or river, waterbirds
 </p>
 
 ## Cocoa flower visitors detection for Pollination ecology
+The goal of this use case is to understand how different intercropping patterns influence cocoa pollinators. For this, the true pollinators of cocoa trees must be identified first. Then, these pollinators can be monitored in different intercropping fields. Currently, we have already detected the true pollinator and the ecological project is ongoing. 
 
 <p align="center">
   <img src="images/cocoa-setup.jpg" height=300 />
@@ -112,6 +114,7 @@ With the ecoEye camera set up to monitor sections of a lake or river, waterbirds
   <img src="images/cocoa-gif.gif" height=300 />
 </p>
 
+Hainan May 2023 – technical details: Currently there are 12 cameras being deployed continuously in the fields. While running the insect frame differencing script, the device consumes about 1.9W. Each camera holds 3 internal batteries and 4 additional ones in an external power bank, summing up to a capacity of 23Ah (23450mAh, with the 3350mAh batteries we are using). With this power supply the device can monitor continuously for up to 48h. However, due to the charging-stop algorithm of the power bank output, most deployments last about 30 hours which is still enough to monitor the flower during its entire opening period.   
 
 
 
