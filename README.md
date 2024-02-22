@@ -15,10 +15,18 @@ The ecoEye housing is carefully designed to accommodate all components and provi
 Using the openMV IDE, you can program the camera in Python using available examples or custom code. The IDE provides a simple interface with a serial terminal and real-time image frame buffer, making it easy to write, run, debug, and set up the camera. The provided script code offers a user-friendly way to configure the camera for various monitoring applications without needing advanced knowledge of micropython or board functions. Basic parameters can be configured by the user, while most other settings are automatically handled in the background.
 
 ## Features
-- High-performance Cortex-M7 MCU and 5MP image sensor
-- Automatic power management with low-power mode, power switch, real-time, USB/solar charging, and sensor integration capability
+- High-performance Cortex-M7 CPU for embedded vision applications
+- OV5640 high resolution image sensor with up to 5MP (2592x1944) frame size
+- Micro-SD card socket with 100Mbs read/write speeds
+- Interchangeable lens for different focal lengths requirements
+- Automatic power management with ultra low-power mode, power switch, real-time, USB/solar charging, and sensor integration capability
+- Integrated battery compartment for up to 10200 mAh energy capacity
 - Waterproof housing designed for portability, compactness, and flexible mounting for discrete outdoor deployments
-- Easy-to-use application setup with fully integrated micro python code on the OpenMV IDE
+- External user interface through power switch, USB-C and multi-pin connectors
+- Frontal RGB indicator LED and two high power 850nm IR illumination LEDs
+- Additional light shield (white, IR, UV) mounting capability
+- USB type-C fast charging and full speed 12Mbs data transfer with computer
+- Easy-to-use application setup with fully integrated micropython code on the OpenMV IDE
 
 ## Applications
 - Ecosystem service (Pollination, Pest Control) monitoring
@@ -40,7 +48,7 @@ Using the openMV IDE, you can program the camera in Python using available examp
 </p>
 
 ## Part List
-- Fully assembled EcoEye camera (with the standard 2.8mm lens on it, batteries, and SD card not included)
+- Fully assembled EcoEye camera (with the standard 2.8mm lens; batteries and SD card not included)
 - USB-C data cable
 - 1.8mm lens
 - 6.0mm lens
@@ -49,6 +57,17 @@ Using the openMV IDE, you can program the camera in Python using available examp
 <p align="center">
   <img src="images/ecoeye-parts.jpg" width="600" />
 </p>
+
+# Use Cases
+## Waterbirds recognition real-time alerts for Conservation biology
+
+## Phenology monitoring of plants
+
+## Flying nocturnal insects classification for Pest monitoring
+
+## Flying bats and insects detection for Landscape ecology
+
+## Cocoa flower visitors detection for Pollination ecology
 
 
 
