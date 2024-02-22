@@ -88,11 +88,11 @@ With the ecoEye camera set up to monitor sections of a lake or river, waterbirds
 The ecoEye camera is uesd to collect insect data in rice fields with the blob detection method. Subsequently, this data can be used for pest control. First, raw image data is collected, and the captured insects are analyzed. After creating a classification model with the collected data, the camera can be set up near rice fields to automatically identify and analyze the visiting insects. Currently, the accuracy of the built model is being verified.
 
 <p align="center">
-  <img src="images/rice-setup.png" width=800 />
+  <img src="images/rice-setup.png" width=600 />
   <br/><br/>
-  <img src="images/rice-det1.png" height=250 />
+  <img src="images/rice-det1.png" height=300 />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/rice-gif2.gif" height=250 />
+  <img src="images/rice-gif2.gif" height=300 />
   <br/><br/>
   <img src="images/rice-website.png" width="800" />
 </p>
