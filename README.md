@@ -72,7 +72,7 @@ With the ecoEye camera set up to monitor sections of a lake or river, waterbirds
   <img src="images/waterbirds-website.png" width="800" />
 </p>
 
-## Phenology monitoring of plants
+## Phenology monitoring of plants for Soil treatment evaluation
 
 <p align="center">
   <img src="images/pheno-setup.jpg" height=250 />
