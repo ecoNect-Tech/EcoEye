@@ -55,7 +55,7 @@ Using the openMV IDE, you can program the camera in Python using available examp
 - 12.0mm lens
 
 <p align="center">
-  <img src="images/ecoeye-parts.jpg" width="600" />
+  <img src="images/ecoeye-parts.jpg" width="400" />
 </p>
 
 # Use Cases
