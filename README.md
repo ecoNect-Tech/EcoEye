@@ -98,7 +98,19 @@ With the ecoEye camera set up to monitor sections of a lake or river, waterbirds
 
 ## Flying bats and insects detection for Landscape ecology
 
+<p align="center">
+  <img src="images/bats-setup.png" height=300 />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images/bats-det1.png" height=300 />
+</p>
+
 ## Cocoa flower visitors detection for Pollination ecology
+
+<p align="center">
+  <img src="images/cocoa-setup.jpg" height=300 />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images/cocoa-gif.gif" height=300 />
+</p>
 
 
 
