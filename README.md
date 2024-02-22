@@ -66,7 +66,7 @@ In this setup, the EcoEye camera was used to recognize male and female mandarin 
   <img src="images/waterbirds-setup.jpg" width="800" />
 </p>
 
-The camera obtained field accuracies of 74% for female and 96% for male mandarin ducks.
+The camera resulted in field accuracies of 74% for female and 96% for male mandarin ducks obtained from 594 raw detections.
 
 <p align="center">
   <img src="images/waterbirds-id1.png" width="300" />
