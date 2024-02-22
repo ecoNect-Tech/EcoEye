@@ -73,6 +73,14 @@ With the ecoEye camera set up to monitor sections of a lake or river, waterbirds
 
 ## Phenology monitoring of plants
 
+<p align="center">
+  <img src="images/pheno-setup.jpg" width=45% />
+  <img src="images/pheno-setup2.JPG" width=45% />
+  <br/><br/>
+  <img src="images/pheno-id.png" width="300" />
+  <img src="images/pheno-gif.gif" width="300" />
+</p>
+
 ## Flying nocturnal insects classification for Pest monitoring
 
 ## Flying bats and insects detection for Landscape ecology
