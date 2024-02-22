@@ -60,7 +60,7 @@ Using the openMV IDE, you can program the camera in Python using available examp
 
 # Use Cases
 ## Waterbirds recognition real-time alerts for Conservation biology
-With the ecoEye camera set up to monitor sections of a lake or river, waterbirds crossing the field of view are tracked. An accurate model is built using images of different waterbirds at multiple locations in Westlake. In the final deployment, images with detected waterbirds are sent to a cloud server in real-time. Currently, the accuracy and server performance is being analyzed. 
+In this setup, the EcoEye camera was used to recognize male and female mandarin ducks that cross a small section on a lake. The object detection model was trained with images taken from different locations, at various weather conditions and times of the day. When an image includes one or multiple detections above a set threshold, the detections count and confidences are transferred along with the compressed image to a cloud server, over the WiFi signal from a portable router, in real-time.
 
 <p align="center">
   <img src="images/waterbirds-setup.jpg" width="800" />
@@ -116,7 +116,10 @@ The goal of this use case is to understand how different intercropping patterns 
   <img src="images/cocoa-gif.gif" height=300 />
 </p>
 
-Hainan May 2023 – technical details: Currently there are 12 cameras being deployed continuously in the fields. While running the insect frame differencing script, the device consumes about 1.9W. Each camera holds 3 internal batteries and 4 additional ones in an external power bank, summing up to a capacity of 23Ah (23450mAh, with the 3350mAh batteries we are using). With this power supply the device can monitor continuously for up to 48h. However, due to the charging-stop algorithm of the power bank output, most deployments last about 30 hours which is still enough to monitor the flower during its entire opening period.   
+Hainan May 2023 – technical details: Currently there are 12 cameras being deployed continuously in the fields. While running the insect frame differencing script, the device consumes about 1.9W. Each camera holds 3 internal batteries and 4 additional ones in an external power bank, summing up to a capacity of 23Ah (23450mAh, with the 3350mAh batteries we are using). With this power supply the device can monitor continuously for up to 48h. However, due to the charging-stop algorithm of the power bank output, most deployments last about 30 hours which is still enough to monitor the flower during its entire opening period.
+
+# Education
+## Plant Boxes
 
 
 
