@@ -90,7 +90,7 @@ The ecoEye camera is uesd to collect insect data in rice fields with the blob de
 <p align="center">
   <img src="images/rice-setup.png" width=800 />
   <br/><br/>
-  <img src="images/rice-image.png" height=250 />
+  <img src="images/rice-det1.png" height=250 />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="images/rice-gif2.gif" height=250 />
   <br/><br/>
