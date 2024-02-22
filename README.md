@@ -86,6 +86,16 @@ With the ecoEye camera set up to monitor sections of a lake or river, waterbirds
 
 ## Flying nocturnal insects classification for Pest monitoring
 
+<p align="center">
+  <img src="images/rice-setup.png" width=800 />
+  <br/><br/>
+  <img src="images/rice-image.png" height=250 />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images/rice-gif2.gif" height=250 />
+  <br/><br/>
+  <img src="images/rice-website.png" width="800" />
+</p>
+
 ## Flying bats and insects detection for Landscape ecology
 
 ## Cocoa flower visitors detection for Pollination ecology
