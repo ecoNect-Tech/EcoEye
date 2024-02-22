@@ -83,7 +83,7 @@ With the ecoEye camera set up to monitor sections of a lake or river, waterbirds
   <br/><br/>
   <img src="images/pheno-graph1.svg" width=80% />
   <br/><br/>
-  <img src="images/pheno-gif.gif" height=250 />
+  <img src="images/pheno-gif.gif" height=300 />
 </p>
 
 ## Flying nocturnal insects classification for Pest monitoring
