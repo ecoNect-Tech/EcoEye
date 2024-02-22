@@ -77,9 +77,9 @@ With the ecoEye camera set up to monitor sections of a lake or river, waterbirds
 <p align="center">
   <img src="images/pheno-setup.jpg" height=300 />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/pheno-setup2.JPG" height=300 />
+  <img src="images/pheno-setup2.JPG" height=250 />
   <br/><br/>
-  <img src="images/pheno-id.png" width="300" />
+  <img src="images/pheno-id.png" width="250" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="images/pheno-gif.gif" width="300" />
 </p>
@@ -90,9 +90,9 @@ The ecoEye camera is uesd to collect insect data in rice fields with the blob de
 <p align="center">
   <img src="images/rice-setup.png" width=600 />
   <br/><br/>
-  <img src="images/rice-det1.png" height=300 />
+  <img src="images/rice-det1.png" height=250 />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/rice-gif2.gif" height=300 />
+  <img src="images/rice-gif2.gif" height=250 />
   <br/><br/>
   <img src="images/rice-website.png" width="800" />
 </p>
