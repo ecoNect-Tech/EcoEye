@@ -81,7 +81,7 @@ With the ecoEye camera set up to monitor sections of a lake or river, waterbirds
   <br/><br/>
   <img src="images/pheno-graph2.svg" width=80% />
   <br/><br/>
-  <img src="images/pheno-gif.gif" height=200 />
+  <img src="images/pheno-gif.gif" height=250 />
   &nbsp;
   <img src="images/pheno-graph1.svg" height=150 />
 </p>
