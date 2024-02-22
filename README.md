@@ -66,7 +66,7 @@ With the ecoEye camera set up to monitor sections of a lake or river, waterbirds
   <img src="images/waterbirds-setup.jpg" width="800" />
   <br/><br/>
   <img src="images/waterbirds-id1.png" width="300" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;
   <img src="images/waterbirds-id2.png" width="300" />
   <br/><br/>
   <img src="images/waterbirds-website.png" width="800" />
@@ -76,7 +76,7 @@ With the ecoEye camera set up to monitor sections of a lake or river, waterbirds
 
 <p align="center">
   <img src="images/pheno-setup.jpg" height=250 />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;
   <img src="images/pheno-setup2.JPG" height=250 />
   <br/><br/>
   <img src="images/pheno-graph2.svg" width=80% />
@@ -93,7 +93,7 @@ The ecoEye camera is uesd to collect insect data in rice fields with the blob de
   <img src="images/rice-setup.png" width=600 />
   <br/><br/>
   <img src="images/rice-det1.png" height=250 />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;
   <img src="images/rice-gif2.gif" height=250 />
   <br/><br/>
   <img src="images/rice-website.png" width="800" />
@@ -103,7 +103,7 @@ The ecoEye camera is uesd to collect insect data in rice fields with the blob de
 
 <p align="center">
   <img src="images/bats-setup.png" height=300 />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;
   <img src="images/bats-det1.png" height=300 />
 </p>
 
@@ -112,7 +112,7 @@ The goal of this use case is to understand how different intercropping patterns 
 
 <p align="center">
   <img src="images/cocoa-setup.jpg" height=300 />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;
   <img src="images/cocoa-gif.gif" height=300 />
 </p>
 
