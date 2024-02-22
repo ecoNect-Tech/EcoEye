@@ -63,10 +63,10 @@ Using the openMV IDE, you can program the camera in Python using available examp
 With the ecoEye camera set up to monitor sections of a lake or river, waterbirds crossing the field of view are tracked. An accurate model is built using images of different waterbirds at multiple locations in Westlake. In the final deployment, images with detected waterbirds are sent to a cloud server in real-time. Currently, the accuracy and server performance is being analyzed. 
 
 <p align="center">
-  <img src="images/waterbirds-setup.jpg" width="400" />
+  <img src="images/waterbirds-setup.jpg" width="600" />
   <br/><br/>
-  <img src="images/waterbirds-id1.png" width="200" />
-  <img src="images/waterbirds-id2.png" width="200" />
+  <img src="images/waterbirds-id1.png" width="300" />
+  <img src="images/waterbirds-id2.png" width="300" />
   <br/><br/>
   <img src="images/waterbirds-website.png" width="800" />
 </p>
