@@ -55,7 +55,7 @@ Using the openMV IDE, you can program the camera in Python using available examp
 - 12.0mm lens
 
 <p align="center">
-  <img src="images/ecoeye-parts.jpg" width="600" />
+  <img src="images/ecoeye-parts.jpg" width="400" />
 </p>
 
 # Use Cases
@@ -75,9 +75,9 @@ With the ecoEye camera set up to monitor sections of a lake or river, waterbirds
 ## Phenology monitoring of plants
 
 <p align="center">
-  <img src="images/pheno-setup.jpg" height=300 />
+  <img src="images/pheno-setup.jpg" height=250 />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/pheno-setup2.JPG" height=300 />
+  <img src="images/pheno-setup2.JPG" height=250 />
   <br/><br/>
   <img src="images/pheno-id.png" width="300" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -88,7 +88,7 @@ With the ecoEye camera set up to monitor sections of a lake or river, waterbirds
 The ecoEye camera is uesd to collect insect data in rice fields with the blob detection method. Subsequently, this data can be used for pest control. First, raw image data is collected, and the captured insects are analyzed. After creating a classification model with the collected data, the camera can be set up near rice fields to automatically identify and analyze the visiting insects. Currently, the accuracy of the built model is being verified.
 
 <p align="center">
-  <img src="images/rice-setup.png" width=800 />
+  <img src="images/rice-setup.png" width=600 />
   <br/><br/>
   <img src="images/rice-det1.png" height=250 />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
