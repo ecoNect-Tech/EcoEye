@@ -60,6 +60,14 @@ Using the openMV IDE, you can program the camera in Python using available examp
 
 # Use Cases
 ## Waterbirds recognition real-time alerts for Conservation biology
+With the ecoEye camera set up to monitor sections of a lake or river, waterbirds crossing the field of view are tracked. An accurate model is built using images of different waterbirds at multiple locations in Westlake. In the final deployment, images with detected waterbirds are sent to a cloud server in real-time. Currently, the accuracy and server performance is being analyzed. 
+
+<p align="center">
+  <img src="images/waterbirds-setup.jpg" width="400" />
+  <img src="images/waterbirds-id1.png" width="400" />
+  <img src="images/waterbirds-id2.png" width="400" />
+  <img src="images/waterbirds-website.png" width="400" />
+</p>
 
 ## Phenology monitoring of plants
 
