@@ -72,9 +72,14 @@ The camera obtained field accuracies of 74% for female and 96% for male mandarin
   <img src="images/waterbirds-id1.png" width="300" />
   &nbsp;
   <img src="images/waterbirds-id2.png" width="300" />
-  <br/><br/>
+</p>
+
+Due to the fast consecutive detections at times, not all the data were sent to the cloud server, more specifically 82% of the count and confidence data, and 80% of the detected images were uccessfully transferred.
+
+<p align="center">
   <img src="images/waterbirds-website.png" width="800" />
 </p>
+
 
 ## Phenology monitoring of plants for Soil treatment evaluation
 
