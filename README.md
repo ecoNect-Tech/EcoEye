@@ -60,63 +60,91 @@ Using the openMV IDE, you can program the camera in Python using available examp
 
 # Use Cases
 ## Waterbirds recognition real-time alerts for Conservation biology
-With the ecoEye camera set up to monitor sections of a lake or river, waterbirds crossing the field of view are tracked. An accurate model is built using images of different waterbirds at multiple locations in Westlake. In the final deployment, images with detected waterbirds are sent to a cloud server in real-time. Currently, the accuracy and server performance is being analyzed. 
+In this setup, the EcoEye camera was used to recognize male and female mandarin ducks that cross a small section on a lake. The object detection model was trained with images taken from different locations, at various weather conditions and times of the day. When an image includes one or multiple detections above a set threshold, the detections count and confidences are transferred along with the compressed image to a cloud server, over the WiFi signal from a portable router, in real-time.
 
 <p align="center">
   <img src="images/waterbirds-setup.jpg" width="800" />
-  <br/><br/>
+</p>
+
+The camera resulted in field accuracies of 74% for female and 96% for male mandarin ducks obtained from 594 raw detections.
+
+<p align="center">
   <img src="images/waterbirds-id1.png" width="300" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;
   <img src="images/waterbirds-id2.png" width="300" />
-  <br/><br/>
+</p>
+
+Due to the fast consecutive detections at times, not all the data were sent to the cloud server, more specifically 82% of the count and confidence data, and 80% of the detected images were uccessfully transferred.
+
+<p align="center">
   <img src="images/waterbirds-website.png" width="800" />
 </p>
 
+
 ## Phenology monitoring of plants for Soil treatment evaluation
+This plant monitoring application was carried out to evaluate the sensor integration and solar charging functions of the power management system of the EcoEye camera. 
 
 <p align="center">
   <img src="images/pheno-setup.jpg" height=250 />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;
   <img src="images/pheno-setup2.JPG" height=250 />
+</p>
+
+During 4 months, the device captured top-view images of the plants, every 30 minutes form sunrise until sunset, and evaluated the pixel-based plant growth through an on-board blob detection color tracking algorithm, while also measuring environmental data from various sensors placed above and in the soil. With the low-power sleep mode in between measure times, the overall power concumption is reduced enough for the camera to be self-sustainable with a 5W solar panel.
+
+<p align="center">
+  <img src="images/pheno-graph2.svg" width=80% />
   <br/><br/>
-  <img src="images/pheno-graph1.svg" width=600 />
-  <br/><br/>
-  <img src="images/pheno-graph2.svg" width=600 />
-  <br/><br/>
-  <img src="images/pheno-gif.gif" height=250 />
+  <img align="middle" src="images/pheno-gif.gif" width=40% />
+  &nbsp;
+  <img align="middle" src="images/pheno-graph1.svg" width=50% />
 </p>
 
 ## Flying nocturnal insects classification for Pest monitoring
-The ecoEye camera is uesd to collect insect data in rice fields with the blob detection method. Subsequently, this data can be used for pest control. First, raw image data is collected, and the captured insects are analyzed. After creating a classification model with the collected data, the camera can be set up near rice fields to automatically identify and analyze the visiting insects. Currently, the accuracy of the built model is being verified.
+With the white LED shield mounted inside the EcoEye camera, illuminating a yellow board, the setup was used to collect insect data in rice fields for pest control management.  
 
 <p align="center">
   <img src="images/rice-setup.png" width=600 />
-  <br/><br/>
+</p>
+
+First, the captured image is compared with a reference frame to detect motion and then, the resulting blobs of the flying targets are classified with a model that was trained to differenciate nine insect species. The final calculated field accuracies for non-pest species ranged from 8% for curculionidae (due to only 39 training images) to 93% for coleoptera, and for potential planthopper pests the accuracies were between 55% and 83%.
+
+<p align="center">
   <img src="images/rice-det1.png" height=250 />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;
   <img src="images/rice-gif2.gif" height=250 />
-  <br/><br/>
+</p>
+
+Additionally, whenever a classification confidence reached a minimum threshold, the species detection count was sent to a cloud server via the installed WiFi shield module connected to a 4G portable router.
+
+<p align="center">
   <img src="images/rice-website.png" width="800" />
 </p>
 
 ## Flying bats and insects detection for Landscape ecology
+To evaluate pest control services provided by bats predating on insects in natural and agricultural landscapes, flying insects and bats were monitored in a rice field with a nearby forest. The EcoEye camera, running the blob detection algorithm at an average of 1.32 frames per seconds, was equipped with four infrared torch lamps, to capture flying objects up to 7m above ground. The output bounding boxes were classified into bats, insects, or unknown flying objects with the previously trained CNN. In the latest deplyment, bats were classified correctly 67% of the time while insects had a field accuracy of 93%.
 
 <p align="center">
   <img src="images/bats-setup.png" height=300 />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;
   <img src="images/bats-det1.png" height=300 />
 </p>
 
 ## Cocoa flower visitors detection for Pollination ecology
-The goal of this use case is to understand how different intercropping patterns influence cocoa pollinators. For this, the true pollinators of cocoa trees must be identified first. Then, these pollinators can be monitored in different intercropping fields. Currently, we have already detected the true pollinator and the ecological project is ongoing. 
+In this use case, cocoa flowers are monitored during their opening period to understand which visiting insects are pollinators. As these flowers are very small, typically 1cm across, the camera was equipped with a macro lens and placed close to the flower. The blob detection method is used to capture and save images of any moving targets on the flower. As this continuous operation cosumes about 1.9W, the camera is setup with an external power bank, bringing the total capacity to 23Ah, allowing the device to run up to 48 hours which is enough to monitor the flower during its entire opening period. At night the internal infrared LEDs are turned on to illuminate the target without disturbing the visiting insects. 
 
 <p align="center">
   <img src="images/cocoa-setup.jpg" height=300 />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;
   <img src="images/cocoa-gif.gif" height=300 />
 </p>
 
-Hainan May 2023 – technical details: Currently there are 12 cameras being deployed continuously in the fields. While running the insect frame differencing script, the device consumes about 1.9W. Each camera holds 3 internal batteries and 4 additional ones in an external power bank, summing up to a capacity of 23Ah (23450mAh, with the 3350mAh batteries we are using). With this power supply the device can monitor continuously for up to 48h. However, due to the charging-stop algorithm of the power bank output, most deployments last about 30 hours which is still enough to monitor the flower during its entire opening period.   
+# Education
+The EcoEye camera can not just be used for reasearch and development purposes, but also serves as a great tool to introduce students into ecology, programming and data analysis. 
+## Plant Boxes
+<p align="center">
+  <img src="images/plant-box.png" height=300 />
+</p>
 
 
 
