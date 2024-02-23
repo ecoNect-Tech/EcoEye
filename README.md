@@ -82,12 +82,15 @@ Due to the fast consecutive detections at times, not all the data were sent to t
 
 
 ## Phenology monitoring of plants for Soil treatment evaluation
+This plant monitoring application was carried out to evaluate the sensor integration and solar charging functions of the power management system of the EcoEye camera. During 4 months, the device captured top-view images of the plants, every 30 minutes form sunrise until sunset, and evaluated the pixel-based plant growth through a blob detection color tracking algorithm, while also measuring environmental data from various sensors placed above and in the soil. 
 
 <p align="center">
   <img src="images/pheno-setup.jpg" height=250 />
   &nbsp;
   <img src="images/pheno-setup2.JPG" height=250 />
-  <br/><br/>
+</p>
+
+<p align="center">
   <img src="images/pheno-graph2.svg" width=80% />
   <br/><br/>
   <img align="middle" src="images/pheno-gif.gif" width=40% />
