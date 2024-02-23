@@ -131,15 +131,13 @@ To evaluate pest control services provided by bats predating on insects in natur
 </p>
 
 ## Cocoa flower visitors detection for Pollination ecology
-The goal of this use case is to understand how different intercropping patterns influence cocoa pollinators. For this, the true pollinators of cocoa trees must be identified first. Then, these pollinators can be monitored in different intercropping fields. Currently, we have already detected the true pollinator and the ecological project is ongoing. 
+In this use case, cocoa flowers are monitored during their opening period to understand which visiting insects are pollinators. As these flowers are very small, typically 1cm across, the camera was equipped with a macro lens and placed close to the flower. The blob detection method is used to capture and save images of any moving targets on the flower. As this continuous operation cosumes about 1.9W, the camera is setup with an external power bank, bringing the total capacity to 23Ah, allowing the device to run up to 48 hours which is enough to monitor the flower during its entire opening period. At night the internal infrared LEDs are turned on to illuminate the target without disturbing the visiting insects. 
 
 <p align="center">
   <img src="images/cocoa-setup.jpg" height=300 />
   &nbsp;
   <img src="images/cocoa-gif.gif" height=300 />
 </p>
-
-Hainan May 2023 – technical details: Currently there are 12 cameras being deployed continuously in the fields. While running the insect frame differencing script, the device consumes about 1.9W. Each camera holds 3 internal batteries and 4 additional ones in an external power bank, summing up to a capacity of 23Ah (23450mAh, with the 3350mAh batteries we are using). With this power supply the device can monitor continuously for up to 48h. However, due to the charging-stop algorithm of the power bank output, most deployments last about 30 hours which is still enough to monitor the flower during its entire opening period.
 
 # Education
 ## Plant Boxes
