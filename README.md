@@ -122,6 +122,7 @@ Additionally, whenever a classification confidence reached a minimum threshold, 
 </p>
 
 ## Flying bats and insects detection for Landscape ecology
+To evaluate pest control services provided by bats predating on insects in natural and agricultural landscapes, flying insects and bats were monitored in a rice field with a nearby forest. The EcoEye camera was equipped with 
 
 <p align="center">
   <img src="images/bats-setup.png" height=300 />
