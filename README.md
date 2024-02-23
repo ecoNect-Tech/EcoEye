@@ -122,7 +122,7 @@ Additionally, whenever a classification confidence reached a minimum threshold, 
 </p>
 
 ## Flying bats and insects detection for Landscape ecology
-To evaluate pest control services provided by bats predating on insects in natural and agricultural landscapes, flying insects and bats were monitored in a rice field with a nearby forest. The EcoEye camera was equipped with four infrared torch lamps, running at an average of 1.32 frames per seconds, to capture flying objects up to 7m above ground.
+To evaluate pest control services provided by bats predating on insects in natural and agricultural landscapes, flying insects and bats were monitored in a rice field with a nearby forest. The EcoEye camera, running the blob detection algorithm at an average of 1.32 frames per seconds, was equipped with four infrared torch lamps, to capture flying objects up to 7m above ground. The output bounding boxes were classified into bats, insects, or unknown flying objects with the previously trained CNN. In the latest deplyment, bats were classified correctly 67% of the time while insects had a field accuracy of 93%.
 
 <p align="center">
   <img src="images/bats-setup.png" height=300 />
