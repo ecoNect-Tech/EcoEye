@@ -140,7 +140,11 @@ In this use case, cocoa flowers are monitored during their opening period to und
 </p>
 
 # Education
+The EcoEye camera can not just be used for reasearch and development purposes, but also serves as a great tool to introduce students into ecology, programming and data analysis. 
 ## Plant Boxes
+<p align="center">
+  <img src="images/plant-box.png" height=300 />
+</p>
 
 
 
