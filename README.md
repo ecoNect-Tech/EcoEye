@@ -140,10 +140,12 @@ In this use case, cocoa flowers are monitored during their opening period to und
 </p>
 
 # Education
-The EcoEye camera can not just be used for reasearch and development purposes, but also serves as a great tool to introduce students into ecology, programming and data analysis. 
+The EcoEye camera can not just be used for reasearch and development purposes, but also serves as a great tool to introduce students into ecology, programming and data analysis.
+
 ## Plant Boxes
+In a collaborative pilot project with Wahaha school, the ecoNect team developed a plant box, derived from the phenology use case setup described above, that facilitates the installation process and use caser planning. It incoporates the most useful features that the EcoEye camera offers : embedded vision through either blob detection, image classification or object recognition, multi-sensor integration and automatic management, self-sustainability with solar power harvesting and the low-power sleep mode, and time-accurate device control.
 <p align="center">
-  <img src="images/plant-box.png" height=300 />
+  <img src="images/plant-box.png" width=400 />
 </p>
 
 
