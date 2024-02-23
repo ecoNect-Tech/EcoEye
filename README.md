@@ -101,15 +101,23 @@ During 4 months, the device captured top-view images of the plants, every 30 min
 </p>
 
 ## Flying nocturnal insects classification for Pest monitoring
-The ecoEye camera is uesd to collect insect data in rice fields with the blob detection method. Subsequently, this data can be used for pest control. First, raw image data is collected, and the captured insects are analyzed. After creating a classification model with the collected data, the camera can be set up near rice fields to automatically identify and analyze the visiting insects. Currently, the accuracy of the built model is being verified.
+With the white LED shield mounted inside the EcoEye camera, illuminating a yellow board, the setup was used to collect insect data in rice fields for pest control management.  
 
 <p align="center">
   <img src="images/rice-setup.png" width=600 />
-  <br/><br/>
+</p>
+
+First, the captured image is compared with a reference frame to detect motion and then, the resulting blobs of the flying targets are classified with a model that was trained to differenciate nine insect species. The final calculated field accuracies for non-pest species ranged from 8% for curculionidae (due to only 39 training images) to 93% for coleoptera, and for potential planthopper pests the accuracies were between 55% and 83%.
+
+<p align="center">
   <img src="images/rice-det1.png" height=250 />
   &nbsp;
   <img src="images/rice-gif2.gif" height=250 />
-  <br/><br/>
+</p>
+
+Additionally, whenever a classification confidence reached a minimum threshold, the species detection count was sent to a cloud server via the installed WiFi shield module connected to a 4G portable router.
+
+<p align="center">
   <img src="images/rice-website.png" width="800" />
 </p>
 
