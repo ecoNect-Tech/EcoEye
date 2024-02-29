@@ -149,7 +149,7 @@ In a collaborative pilot project with Wahaha school, the ecoNect team developed 
   <img src="images/plant-box.png" width=400 />
 </p>
 
-Through the waterproof multi-pin plug, the EcoEye camera is connected to the 'Splitterbox' thats acts a multi-socket for ta solar panel, multiple I2C-protocol and analog sensors, and a controllable 3.3V or 5V device. The plant box setup features a 5W solar panel, that is largely enough to keep phenology applications, with wake-up intervals as often as every 15 minutes, running indefinitly. Two SHT40 temperature and humidity sensors probes are installed to measure soil and ambient environmental data, which can be automatically detected and read from by the EcoEye camera. Finally, a small water pump, used for watering the plants, can be activated based on the soil humidity measurements or at programmed times of the day.
+Through the waterproof multi-pin plug, the EcoEye camera is connected to the 'Splitterbox' thats acts a multi-socket for a solar panel, multiple I2C-protocol and analog sensors, and a controllable 3.3V or 5V device. The plant box setup features a 5W solar panel, that is largely enough to keep phenology applications, with wake-up intervals as often as every 15 minutes, running indefinitly. Two SHT40 temperature and humidity sensors probes are installed to measure soil and ambient environmental data, which can be automatically detected and read from by the EcoEye camera. Finally, a small water pump, used for watering the plants, can be activated based on the soil humidity measurements or at programmed times of the day.
 
 
 
