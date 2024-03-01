@@ -59,7 +59,7 @@ Using the openMV IDE, you can program the camera in Python using available examp
 </p>
 
 # Use Cases
-## Waterbirds recognition real-time alerts for Conservation biology
+## Waterbirds recognition with real-time alerts for Conservation biology
 In this setup, the EcoEye camera was used to recognize male and female mandarin ducks that cross a small section on a lake. The object detection model was trained with images taken from different locations, at various weather conditions and times of the day. When an image includes one or multiple detections above a set threshold, the detections count and confidences are transferred along with the compressed image to a cloud server, over the WiFi signal from a portable router, in real-time.
 
 <p align="center">
@@ -74,7 +74,7 @@ The camera resulted in field accuracies of 74% for female and 96% for male manda
   <img src="images/waterbirds-id2.png" width="300" />
 </p>
 
-Due to the fast consecutive detections at times, not all the data were sent to the cloud server, more specifically 82% of the count and confidence data, and 80% of the detected images were uccessfully transferred.
+Due to the fast consecutive detections at times, not all the data were sent to the cloud server, more specifically 82% of the count and confidence data, and 80% of the detected images were successfully transferred.
 
 <p align="center">
   <img src="images/waterbirds-website.png" width="800" />
